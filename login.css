@@ -1,0 +1,121 @@
+body {
+    background-image: url(/images/loginpage2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+
+
+.logarr {
+    align-items: center;
+    text-align: center;
+}
+
+.div_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 20px;
+    width: 100%;
+}
+
+.div1, .div2 {
+    width: 40%;
+    min-height: 500px; /* Ensures both have the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.div1 {
+    background-image: url(/images/log_form1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.div2 {
+    background-image: url(/images/log_text.jpg);
+    /* background: rgba(255, 255, 255, 0.8); Adjust opacity for better readability */
+    text-align: center;
+    padding: 20px;
+}
+
+
+#img {
+    width: 100px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+
+
+#para_log {
+    margin: 20px;
+    color: black;
+    font-size: medium;
+}
+
+.form1 {
+    margin: 13%;
+}
+
+.login-container {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.buttonl {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-reminder {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-reminder a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-reminder a:hover {
+    text-decoration: underline;
+}
